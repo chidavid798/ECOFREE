@@ -4,11 +4,12 @@ body{
 }
 
 header{
-  
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
     padding: 10px;
     background-image: url(./pic\ dirt03.jpeg);
     background-repeat:inherit ;
     height: 300px;
+    width: 100%;
 }
 
 nav{
@@ -49,15 +50,18 @@ img{
     width: 250px;
     height: 250px;
     margin: 5px;
-    
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
     padding: 5px;
+    border-radius: 15px;
 }
 
 footer{
-    background-color: black;
+    /* background-color: rgb(51, 47, 47); */
     color: cornsilk;
     padding: 30px;
     text-align: center;
+background-image: url(./picture\ dirt02.jpeg);
+width: 100%;
 }
 
 .tap{
@@ -81,6 +85,7 @@ ul{
 .try{
     width: 20px;
     height: 20px;
+    box-shadow: none;
 }
 
 .side{
@@ -92,4 +97,57 @@ ul{
     width: 70px;
     height: 70px;
 }
+.waste{
+    margin: 10px;
+}
+form{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
+   
+}
+
+
+li{
+    font-size: 20px;
+    padding: 20px;
+}
+.images{
+    margin-left: 30rem;
+    width: 400px;
+    height: 350px;
+}
+input{
+    width: 250px;
+    height: 30px;
+    font-size: 15px;
+}
+section{
+    margin: 1.5rem;
+}
+.btn{
+    padding: 10px;
+    color:white;
+    border-radius: 50px;
+    font-size: 1rem;
+    
+}
+.but{
+    background-color: none;
+}
+.contact{
+    margin: 1.5rem;
+}
+.change{
+    background-color: rgb(192, 238, 192);
+    border-radius: 20px;
+    width: 500px;
+    margin-left: 30rem;
+}
+.reg{
+      background-color: rgb(192, 238, 192);
+    border-radius: 20px;
+    width: 500px;
+    margin-top: 5rem;
+    padding: 50px;
+}

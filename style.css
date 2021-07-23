@@ -1,0 +1,95 @@
+body{
+    width: 100%;
+    
+}
+
+header{
+  
+    padding: 10px;
+    background-image: url(./pic\ dirt03.jpeg);
+    background-repeat:inherit ;
+    height: 300px;
+}
+
+nav{
+    padding: 20px;
+    text-align: center;
+   
+}
+
+h1,p,h2,li{
+    text-align: center;
+color: rgb(9, 114, 15);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    margin: 5px;
+    
+}
+
+a:link, a:visited{
+    background-color: whitesmoke;
+    color: rgb(14, 153, 83);
+    border-radius: 5px;
+    padding: 2px;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: silver;
+}
+
+.group{
+   box-shadow: initial;
+    padding: 50px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    
+    padding: 5px;
+}
+
+footer{
+    background-color: black;
+    color: cornsilk;
+    padding: 30px;
+    text-align: center;
+}
+
+.tap{
+margin-bottom: 1px ;
+}
+
+.tag{
+    margin-top:2px ;
+    font-size: 10px;
+}
+
+
+
+ul{
+    text-align: center;
+}
+.fab_fa_facebook{
+    color: cornsilk;
+}
+
+.try{
+    width: 20px;
+    height: 20px;
+}
+
+.side{
+
+    text-align: center;
+}
+
+.tr{
+    width: 70px;
+    height: 70px;
+}
+

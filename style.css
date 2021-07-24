@@ -1,6 +1,6 @@
 body{
     width: 100%;
-    
+    display: block;
 }
 
 header{
@@ -125,7 +125,7 @@ input{
 section{
     margin: 1.5rem;
 }
-.btn{
+.btn,.submit{
     padding: 10px;
     color:white;
     border-radius: 50px;
@@ -136,18 +136,30 @@ section{
     background-color: none;
 }
 .contact{
-    margin: 1.5rem;
+    margin: 1rem;
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .change{
     background-color: rgb(192, 238, 192);
     border-radius: 20px;
     width: 500px;
-    margin-left: 30rem;
+    margin-left: 20rem;
+    padding: 50px;
+    
 }
 .reg{
       background-color: rgb(192, 238, 192);
     border-radius: 20px;
     width: 500px;
     margin-top: 5rem;
-    padding: 50px;
+    padding: 10px;
+}
+select{
+    border: 1px solid transparent;
+    transition: border .25s cubic-bezier(.5,.25,.25,.75);
+    padding-inline-end: var(--tds-select-padding_horizontal--end);
+    border-radius: var(--tds-select-border_radius);
+    border: 1px solid transparent;
+    
 }

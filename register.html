@@ -10,7 +10,6 @@
 <body>
     <!-- the header begins here -->
     <header>
-        <h2 class="side"><img class="tr" src="./recycling.png" alt="" /></h2>
         <h1>REGISTER HERE</h1>
         <p></p>
 
@@ -30,29 +29,27 @@
 
     <!-- the section starts here -->
     <section class="change" >
+        <div class="fill">
         <form class="reg" action="">
             <div>
                 
-                <input type="text" name="First Name" id="First Name" placeholder="First Name">
-                <input type="text" name="Last Name" id="Last Name" placeholder="Last Name">  
+                <input class="contact" type="text" name="First Name" id="First Name" placeholder="First Name">
+                <input class="contact" type="text" name="Last Name" id="Last Name" placeholder="Last Name">  
             </div>
             
-               
-                
-            
-            <div>
+               <div>
               
-                <input type="text" number="Phone Number" id="Phone Number" placeholder="Phone Number"> 
-                <input type="text" Email Address="Email Address" id="Phone Number" placeholder="Email Address"> <br>
+                <input class="contact" type="text" number="Phone Number" id="Phone Number" placeholder="Phone Number"> 
+                <input class="contact" type="text" Email Address="Email Address" id="Phone Number" placeholder="Email Address"> <br>
             </div>
             
-            <input type="text" Pickup Address="Pickup Address" id="Pickup Address" placeholder="Pickup Address"> 
+            <input class="contact" type="text" Pickup Address="Pickup Address" id="Pickup Address" placeholder="Pickup Address"> 
                 
             
             <div>
                 <!-- <input type="text" Email Address="Email Address" id="Phone Number" placeholder="Email Address">  -->
-                <select name="" id="">
-                    <option>Select One Option</option>
+                <select class="contact" name="" id="pick">
+                    <option> TIME</option>
                     <option>8:00am To 10:00am</option>
                     <option>11:00am To 2:00pm</option>
                     <option>3:00pm To 6:00pm</option>
@@ -61,8 +58,8 @@
             </div>
             <div>
                 <!-- <input type="text" Email Address="Email Address" id="Phone Number" placeholder="Email Address">  -->
-                <select name="" id="">
-                    <option>Select One Option</option>
+                <select class="contact" name="" id="pick">
+                    <option>TYPE OF WASTES</option>
                     <option>Medical Waste</option>
                     <option>Plastic Waste</option>
                     <option>Paper Waste</option>
@@ -73,8 +70,8 @@
             </div>
             <div>
                 <!-- <input type="text" Email Address="Email Address" id="Phone Number" placeholder="Email Address">  -->
-                <select name="" id="">
-                    <option>Select One Option</option>
+                <select class="contact" name="" id="pick">
+                    <option>DURATION</option>
                     <option>Weekly</option>
                     <option>Monthly</option>
                     <option>Quaterly</option>
@@ -83,8 +80,8 @@
             </div>
             <div>
                 <!-- <input type="text" Email Address="Email Address" id="Phone Number" placeholder="Email Address">  -->
-                <select name="" id="">
-                    <option>Select One Option</option>
+                <select class="contact" name="" id="pick">
+                    <option>PAYMENT METHOD</option>
                     <option>Payment On Arrival</option>
                     <option>Credit Card</option>
                     <option>Bank Transfer</option>
@@ -93,11 +90,12 @@
             </div>
             <div>
                 
-                <textarea>Message Here</textarea> 
+                <textarea class="contact" placeholder="MESSAGE HERE!"></textarea> 
             </div>
             <button type="submit" class="submit"><a href="./confirm.html">Register</button> 
         </form>
-        
+        </div>
+
     </section>
     <!-- the section ends here -->
 

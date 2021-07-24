@@ -103,9 +103,8 @@ ul{
 form{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-   
 }
+
 
 
 li{
@@ -161,5 +160,8 @@ select{
     padding-inline-end: var(--tds-select-padding_horizontal--end);
     border-radius: var(--tds-select-border_radius);
     border: 1px solid transparent;
-    
+}
+.talk{
+    margin-top: 90px;
+
 }
